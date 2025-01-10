@@ -177,7 +177,7 @@ if ( ! function_exists( 'wctpbs_unassign_old_product_cat' ) ) {
     }
 }
 
-if ( ! function_exists( 'wctpbs_wctpbs_export_assign_products_data' ) ) {
+if ( ! function_exists( 'wctpbs_export_assign_products_data' ) ) {
     function wctpbs_export_assign_products_data( $products, $args, $status = null ) {
         $index = 0;
         if ( ! empty( $products ) ) {

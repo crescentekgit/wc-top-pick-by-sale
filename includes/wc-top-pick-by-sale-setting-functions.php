@@ -157,6 +157,7 @@ if ( ! function_exists( 'wctpbs_admin_tabs' ) ) {
                         'depend_checkbox'   => 'enable_show_order_count',
                         'label'             => __( 'Order Count Text', 'wc-top-pick-by-sale' ),
                         'placeholder'       => $default_massages['shown_order_count_text'],
+                        // translators: %order_count% is replaced with the number of orders, and %day_count% is replaced with the number of days.
                         'desc'              => __( 'Customize the Massage to Show Recent Orders. Note: Use %order_count% as number of orders and %day_count% as days.', 'wc-top-pick-by-sale' ),
                         'database_value'    => '',
                     ],
@@ -211,6 +212,7 @@ if ( ! function_exists( 'wctpbs_admin_tabs' ) ) {
 if ( ! function_exists('wctpbs_default_massages' ) ) {
     function wctpbs_default_massages() {
         $default_massages = array(
+            // translators: %order_count% is the number of orders, and %day_count% is the number of days.
             'shown_order_count_text' => __( '%order_count% bought in past %day_count% days.', 'wc-top-pick-by-sale' ),
         );
         return $default_massages;

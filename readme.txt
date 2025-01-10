@@ -1,7 +1,7 @@
 === WC Top Pick By Sale ===
 Contributors: abhirup23
 Requires at least: 6.3
-Tested up to: 6.6.2
+Tested up to: 6.7.1
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv3

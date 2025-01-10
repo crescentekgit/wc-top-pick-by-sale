@@ -5,9 +5,9 @@
  * Author: Crescentek
  * Version: 1.0.0
  * Requires at least: 4.4
- * Tested up to: 6.2
+ * Tested up to: 6.7.1
  * WC requires at least: 3.0
- * WC tested up to: 7.7.0
+ * WC tested up to: 9.5.2
  * Author URI: https://www.crescentek.com/
  * Text Domain: wc-top-pick-by-sale
  * Domain Path: /languages/
